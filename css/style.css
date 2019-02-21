@@ -1,26 +1,17 @@
 body {
-  background-color: #ffffff;
+  background-color: #DBD9DB;
   font-size: 10px;
 }
 
+*, *:before, *:after {
+ box-sizing: border-box;
+}
+
 .container {
-  background-color: #DBD9DB;
-  position: center center;
-  margin: 5% 20%;
+  margin: 5% auto;
   border: none;
-  width: 50%;
-}
-
-@media screen and (min-width: 750px){
-   .container {
-
-  }
-}
-
-@media screen and (min-width: 1080px){
-   .container {
-
-  }
+  width: 90%;
+  text-align: center;
 }
 
 h1 {
@@ -39,42 +30,46 @@ h2 {
 }
 
 div {
-  display: inline-block;
-  width: auto;
+  display: block;
+  min-width: 100%;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  min-width: 100%;
+  min-height: 300px;
+  margin: 2% 2% 2% 2%;
 }
 
 .preview-baku {
   background-image: url(../images/baku.jpg);
-  background-size: cover;
-  background-position: center center;
-  min-width: 100%;
-  min-height: 300px;
-  margin: 2% 0% 2% 0%;
 }
 
 .preview-london {
   background-image: url(../images/london.png);
-  background-size: cover;
-  background-position: center center;
-  min-width: 100%;
-  min-height: 300px;
-  margin: 2% 0% 2% 0%;
 }
 
 .preview-madrid {
   background-image: url(../images/madrid.jpg);
-  background-size: cover;
-  background-position: center center;
-  min-width: 100%;
-  min-height: 300px;
-  margin: 2% 0% 2% 0%;
 }
 
 .preview-rome {
   background-image: url(../images/rome.jpg);
-  background-size: cover;
-  background-position: center center;
-  min-width: 100%;
-  min-height: 300px;
-  margin: 2% 0% 2% 0%;
+}
+
+@media screen and (min-width: 750px){
+   .container {
+        display: inline-block;
+  }
+  div {
+    min-width: 48%;
+  }
+}
+
+@media screen and (min-width: 1080px){
+   .container {
+        display: inline-block;
+  }
+  div {
+    min-width: 20%;
+  }
 }
