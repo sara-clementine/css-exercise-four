@@ -1,4 +1,80 @@
 body {
-  background-color: #dadada;
+  background-color: #ffffff;
   font-size: 10px;
+}
+
+.container {
+  background-color: #DBD9DB;
+  position: center center;
+  margin: 5% 20%;
+  border: none;
+  width: 50%;
+}
+
+@media screen and (min-width: 750px){
+   .container {
+
+  }
+}
+
+@media screen and (min-width: 1080px){
+   .container {
+
+  }
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Nunito', Roboto, sans-serif;
+  text-transform: uppercase;
+  line-height: 2em;
+  font-size: 2em;
+}
+
+h2 {
+  text-align: left;
+  font-size: 2em;
+  margin: 5% 5% 5% 5%;
+}
+
+div {
+  display: inline-block;
+  width: auto;
+}
+
+.preview-baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-width: 100%;
+  min-height: 300px;
+  margin: 2% 0% 2% 0%;
+}
+
+.preview-london {
+  background-image: url(../images/london.png);
+  background-size: cover;
+  background-position: center center;
+  min-width: 100%;
+  min-height: 300px;
+  margin: 2% 0% 2% 0%;
+}
+
+.preview-madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-width: 100%;
+  min-height: 300px;
+  margin: 2% 0% 2% 0%;
+}
+
+.preview-rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-width: 100%;
+  min-height: 300px;
+  margin: 2% 0% 2% 0%;
 }
