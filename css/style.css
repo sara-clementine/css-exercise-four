@@ -10,7 +10,7 @@ body {
 .container {
   margin: 5% auto;
   border: none;
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ div {
         display: inline-block;
   }
   div {
-    min-width: 48%;
+    min-width: 46%;
   }
 }
 
@@ -70,6 +70,6 @@ div {
         display: inline-block;
   }
   div {
-    min-width: 20%;
+    min-width: 21%;
   }
 }
