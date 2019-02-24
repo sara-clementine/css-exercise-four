@@ -37,7 +37,8 @@ div {
   background-position: center center;
   min-width: 100%;
   min-height: 300px;
-  margin: 2% 2% 2% 2%;
+  margin-bottom: 5%;
+  margin-right: 2%;
 }
 
 .preview-baku {
@@ -62,6 +63,7 @@ div {
   }
   div {
     min-width: 46%;
+    margin-left: 2%;
   }
 }
 
@@ -71,5 +73,6 @@ div {
   }
   div {
     min-width: 21%;
+    margin-left: 2%;
   }
 }
